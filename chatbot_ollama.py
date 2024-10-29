@@ -61,7 +61,6 @@ def save_to_vector_store(documents: List[Document]) -> None:
     vector_store.save_local("faiss_index")
 
 
-
 ############################### 2단계 : RAG 기능 구현과 관련된 함수들 ##########################
 
 
